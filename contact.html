@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Contact</title>
+    <link rel="stylesheet" href="bloompetal.css">
+</head>
+<body>
+    <header>
+        <div class="navigation">
+            <div><a href="index.html">Home</a></div>
+            <div><a href="entreprise.html">Entreprise</a></div>
+            <div><a href="realisations.html">Réalisations</a></div>
+            <div> <a href="contact.html"> Contact</a></div>
+            <div>
+                <form action="#" method="get">
+                    <input type="text" >
+                </form>
+           </div>
+        </div>  
+          </nav> 
+    </header>
+    <main> 
+    <h1>Contact</h1>
+    <form action="traitement_formulaire.php" method="post">
+        <label for="civilite">Civilité :</label>
+        <select id="civilite" name="civilite">
+            <option value="Monsieur">Monsieur</option>
+            <option value="Madame">Madame</option>
+            <option value="Autre">Autre</option>
+        </select>
+        <br><br>
+
+        <label for="nom">Nom :</label>
+        <input type="text" id="nom" name="nom">
+        <br><br>
+
+        <label for="prenom">Prénom :</label>
+        <input type="text" id="prenom" name="prenom">
+        <br><br>
+
+        <label for="adresse">Adresse postale :</label>
+        <input type="text" id="adresse" name="adresse">
+        <br><br>
+
+        <input type="checkbox" id="confidentialite" name="confidentialite">
+        <label for="confidentialite">Je valide les politiques de confidentialité de l’entreprise.</label>
+        <br><br>
+
+        <input type="submit" value="Envoyer">
+    </form>
+    </main>
+    <footer>
+        <p> @Bloompetals 2023 </p>
+    </footer>
+</body>
+</html>

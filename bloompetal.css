@@ -1,0 +1,94 @@
+
+.titre{
+    font-size: 32px; /* Taille du texte */
+    font-weight: bold; /* Gras */
+    text-align: center; /* Centrage */
+    font-family: 'Helvetica';
+}
+
+.navigation {
+    display: flex;
+    background-color: burlywood;
+  
+}
+  .navigation> div a {
+    
+    margin: 30px;
+    padding: 20px;
+    font-size: 30px;
+    text-decoration: none; 
+  }
+
+body {
+    background-color: wheat}
+  
+  h1 {
+    color: blue;
+    text-align: center;
+  }
+  
+
+/* Réinitialisation des styles par défaut */
+body, ul {
+    margin: 0;
+    padding: 0;
+}
+
+.description {
+    text-align: center;
+}
+
+  .image > div {
+    margin: 10px;
+    padding: 20px;
+    font-size: 30px;
+  }
+
+  .description {
+    text-align: center;
+}
+
+.description, .image {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 30px;
+    margin: auto 5%;
+    
+  }
+  
+  .image > div {
+    margin: 10px;
+    padding: 20px;
+    font-size: 30px;
+  }
+
+
+.des{
+    
+    padding: 2%;
+    text-align: center;
+    
+}
+
+form {text-align: center }
+
+p{
+  font-size: 32px; 
+  text-align: center;
+  padding: 20px;
+  
+}
+
+
+footer {
+  flex-shrink: 1;
+  border-top: 0px dashed #000;
+  width: 100%;
+  background: burlywood;
+  color: #333;
+  font-size: 32px; /* Taille du texte */
+  font-weight: bold; /* Gras */
+  text-align: center; /* Centrage */
+  font-family: 'Helvetica';
+}
